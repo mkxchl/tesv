@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Chilanka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/icon?family=Gemunu+Libre:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
+
+@font-face {
+  font-family: "PFBeauSansPro";
+  font-weight: normal;
+  src: url(https://mkxchl.github.io/chlxmk/assets/dist/font/PFBeauSansPro-Regular.woff);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "PFBeauSansPro", sans-serif;
+  scroll-behavior: smooth;
+  user-select: none;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eeeeee;
+}
+.VxBody {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.VxBodyThumb {
+  position: relative;
+  background-image: url('https://vzxchl.vercel.app/assets/img/VanzThumbx.jpg');
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+.VxBodyCard {
+  position: relative;
+  height: 400px;
+  background: #fff;
+  bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 10px;
+}
+.VxBodyCardHeader {
+  position: relative;
+  padding: 10px;
+}
+.VxBodyCardHeaderThumb {
+  position: relative;
+  background-image: url('https://vzxchl.vercel.app/assets/img/VanzBg.gif');
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.VxBodyCardHeader img {
+  position: relative;
+  bottom: 50px;
+  margin-left: 5px;
+  width: 30%;
+  border-radius: 50%;
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+  border: 5px solid #fff;
+}
